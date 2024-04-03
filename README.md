@@ -1,5 +1,7 @@
 ### API Documentation
 
+![alt text](example.png)
+
 Welcome to the Project Management API. This document briefly guides you on how to interact with the API to perform various operations related to projects and tasks.
 
 #### Base URL
