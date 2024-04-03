@@ -23,8 +23,6 @@ Refer to the API documentation provided in the earlier section to understand how
 
 ---
 
-This instruction set outlines what you expect from the candidate, covering both the functional requirements and the interaction with the API endpoints.
-
 #### Base URL
 
 ```
