@@ -1,0 +1,110 @@
+[
+  {
+    "projectId": "1",
+    "projectName": "Web Development",
+    "tasks": [
+      {
+        "taskId": "1",
+        "title": "Design Phase",
+        "description": "Design the main layout",
+        "status": "In Progress",
+        "assignees": ["Developer A", "Designer B"],
+        "dueDate": "2024-05-01",
+        "comments": [
+          {
+            "commentId": "1",
+            "author": "Developer A",
+            "message": "Initial design drafts completed",
+            "timestamp": "2024-04-05T09:00:00Z"
+          }
+        ],
+        "subTasks": [
+          {
+            "subTaskId": "1",
+            "title": "Homepage Design",
+            "status": "Completed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "projectId": "2",
+    "projectName": "Mobile Development",
+    "tasks": [
+      {
+        "taskId": "2",
+        "title": "Development Phase",
+        "description": "Develop the mobile app",
+        "status": "In Progress",
+        "assignees": ["Developer C", "Designer D"],
+        "dueDate": "2024-06-01",
+        "comments": [
+          {
+            "commentId": "2",
+            "author": "Designer D",
+            "message": "Initial app layout completed",
+            "timestamp": "2024-05-05T09:00:00Z"
+          }
+        ],
+        "subTasks": [
+          { "subTaskId": "2", "title": "Login Screen", "status": "In Progress" }
+        ]
+      }
+    ]
+  },
+  {
+    "projectId": "3",
+    "projectName": "Database Development",
+    "tasks": [
+      {
+        "taskId": "3",
+        "title": "Database Design",
+        "description": "Design the database schema",
+        "status": "In Progress",
+        "assignees": ["Developer E", "Designer F"],
+        "dueDate": "2024-07-01",
+        "comments": [
+          {
+            "commentId": "3",
+            "author": "Developer E",
+            "message": "Initial database schema completed",
+            "timestamp": "2024-06-05T09:00:00Z"
+          }
+        ],
+        "subTasks": [
+          { "subTaskId": "3", "title": "User Table", "status": "In Progress" }
+        ]
+      }
+    ]
+  },
+  {
+    "projectId": "4",
+    "projectName": "Embedded Development",
+    "tasks": [
+      {
+        "taskId": "4",
+        "title": "Development Phase",
+        "description": "Develop the embedded system",
+        "status": "In Progress",
+        "assignees": ["Developer G", "Designer H"],
+        "dueDate": "2024-08-01",
+        "comments": [
+          {
+            "commentId": "4",
+            "author": "Designer H",
+            "message": "Initial system layout completed",
+            "timestamp": "2024-07-05T09:00:00Z"
+          }
+        ],
+        "subTasks": [
+          {
+            "subTaskId": "4",
+            "title": "Sensor Integration",
+            "status": "In Progress"
+          }
+        ]
+      }
+    ]
+  }
+]
