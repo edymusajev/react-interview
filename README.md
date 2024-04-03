@@ -1,6 +1,6 @@
 ### API Documentation
 
-![alt text](example.png)
+![alt text](image.png)
 
 ### Instructions
 
