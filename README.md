@@ -2,7 +2,28 @@
 
 ![alt text](example.png)
 
-Welcome to the Project Management API. This document briefly guides you on how to interact with the API to perform various operations related to projects and tasks.
+### Instructions
+
+As part of this interview, you're tasked with implementing a small project management interface. Below are the steps and features we'd like you to focus on:
+
+1. **Clone the Repository**: Start by cloning the provided GitHub repository to your local machine.
+2. **Create a New Branch**: Before you start making changes, create a new branch for your work. This branch will be used to assess your contribution.
+3. **Display Projects**: Implement a UI that displays a list of projects retrieved from the API. Place this list in a panel on the left side of your application.
+4. **Project Details**: When a user clicks on a project in the list, fetch and display the project's details, including its tasks, on the right panel.
+5. **Add Projects**: Include a feature to add new projects through the interface, making a POST request to the `/projects` endpoint.
+6. **Edit/Delete Projects**: Allow users to edit and delete projects using the PUT and DELETE methods on the `/projects/{projectId}` endpoint.
+7. **Edit/Delete Tasks**: Similar to projects, enable editing and deleting tasks within a project. This requires interaction with the `/projects/{projectId}/tasks/{taskId}` endpoint.
+8. **Loading UI**: Implement a loading indicator that appears while data is being fetched from the API, enhancing the user experience.
+
+Please ensure your application handles these operations effectively, reflecting changes in the UI immediately after any add, edit, or delete operation.
+
+#### API Interaction
+
+Refer to the API documentation provided in the earlier section to understand how to interact with the backend for fetching, creating, updating, and deleting projects and tasks. Your implementation should make use of the API endpoints documented there.
+
+---
+
+This instruction set outlines what you expect from the candidate, covering both the functional requirements and the interaction with the API endpoints.
 
 #### Base URL
 
