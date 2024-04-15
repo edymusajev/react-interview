@@ -7,6 +7,19 @@ const port = 8000;
 const server = createServer(async (req, res) => {
   let route = req.url;
 
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+  );
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+
+  if (req.method === "OPTIONS") {
+    res.writeHead(204); // No Content
+    res.end();
+    return;
+  }
+
   // Helper function to send JSON response
   const sendJSON = (data, statusCode = 200) => {
     res.writeHead(statusCode, { "Content-Type": "application/json" });
