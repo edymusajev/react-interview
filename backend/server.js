@@ -109,6 +109,9 @@ const server = createServer(async (req, res) => {
             if (payload.projectName) {
               project.projectName = payload.projectName;
             }
+            if (payload.projectDescription) {
+              project.projectDescription = payload.projectDescription;
+            }
             await fs.writeFile("projects.json", JSON.stringify(projects));
             sendJSON(project);
           });
